@@ -40,3 +40,13 @@ download datasets
 ```
 (venv) $ python mushroom.py --vis_mg precision|recall|accuracy --kg Wordnet18|Wordnet11|Freebase13  --legendLoc lower right
 ```
+
+# Cite
+
+If you use the code, please cite the following paper:
+
+Tiansi Dong, Zhigang Wang, Juanzi Li, Christian Bauckhage, Armin B. Cremers (2019). *Triple Classification Using Regions and Fine-Grained Entity Typing*. **AAAI-19** The Thirty-Third AAAI Conference on Artificial Intelligence, January 27 – February 1, 2019 Hilton Hawaiian Village, Honolulu, Hawaii, USA.
+
+# Reference
+
+Zhigang Wang, Juan-Zi Li (2016). *Text-Enhanced Representation Learning for Knowledge Graph*. **IJCAI-16**  July 9 -- 16, 2016 New York, USA.
