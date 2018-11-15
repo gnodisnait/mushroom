@@ -1,6 +1,6 @@
 # Triple Classification Using Regions and Fine-Grained Entity Typing
 
-## Install system
+## Install on MacOS system
 
 ```
 $ git clone https://github.com/gnodisnait/mushroom.git
@@ -25,7 +25,7 @@ download datasets
 ```
 To run all the triple classification tasks on all knowledge-graphs, with different pre-trained entity-embeddings, type
 ```
-(venv) $ python mushroom.py --func tc all  --kg  all
+(venv) $ python mushroom.py --func tc --kg  all --e2v all
 ```
 It takes more than 14 hours to finish running the above command
 
