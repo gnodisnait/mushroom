@@ -27,6 +27,7 @@ To run all the triple classification tasks on all knowledge-graphs, with differe
 ```
 (venv) $ python mushroom.py --func tc all  --kg  all
 ```
+It takes more than 14 hours to finish running the above command
 
 ## View results
 
