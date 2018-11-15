@@ -23,9 +23,9 @@ download datasets
 ```
 (venv) $ python mushroom.py --func tc --kg [Wordnet18|Wordnet11|Freebase13|all] --e2v [TH|TE|TransE|all]
 ```
-To run all the triple classification using different pre-trained entity-embeddings, type
+To run all the triple classification tasks on all knowledge-graphs, with different pre-trained entity-embeddings, type
 ```
-(venv) $ python mushroom.py --vis_gamma  all  --kg  all
+(venv) $ python mushroom.py --func tc all  --kg  all
 ```
 
 ## View results
