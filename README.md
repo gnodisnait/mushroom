@@ -21,24 +21,28 @@ download datasets
 ## Triple classification
 
 ```
-(venv) $ python mushroom.py --func tc --kg Wordnet18|Wordnet11|Freebase13|all --e2v TH|TE|TransE|all
+(venv) $ python mushroom.py --func tc --kg [Wordnet18|Wordnet11|Freebase13|all] --e2v [TH|TE|TransE|all]
+```
+To run all the triple classification using different pre-trained entity-embeddings, type
+```
+(venv) $ python mushroom.py --vis_gamma  all  --kg  all
 ```
 
 ## View results
 
 #### visualize contribution of gamma to precision|recall|accuracy
 ```
-(venv) $ python mushroom.py --vis_gamma precision|recall|accuracy  --kg Wordnet18|Wordnet11|Freebase13
+(venv) $ python mushroom.py --vis_gamma [precision|recall|accuracy]  --kg [Wordnet18|Wordnet11|Freebase13]
 ```
 
 #### visualize contribution of length-of-type-chain to precision|recall|accuracy
 ```
-(venv) $ python mushroom.py --vis_length precision|recall|accuracy  --kg Wordnet18|Wordnet11|Freebase13
+(venv) $ python mushroom.py --vis_length [precision|recall|accuracy]  --kg [Wordnet18|Wordnet11|Freebase13]
 ```
 
 #### visualize max precision|recall|accuracy is reached by what length-of-type-chain with which-gamma
 ```
-(venv) $ python mushroom.py --vis_mg precision|recall|accuracy --kg Wordnet18|Wordnet11|Freebase13  --legendLoc lower right
+(venv) $ python mushroom.py --vis_mg [precision|recall|accuracy] --kg [Wordnet18|Wordnet11|Freebase13]  --legendLoc lower right
 ```
 
 # Cite
@@ -49,4 +53,4 @@ Tiansi Dong, Zhigang Wang, Juanzi Li, Christian Bauckhage, Armin B. Cremers (201
 
 # Reference
 
-Zhigang Wang, Juan-Zi Li (2016). *Text-Enhanced Representation Learning for Knowledge Graph*. **IJCAI-16**  July 9 -- 16, 2016 New York, USA.
+Zhigang Wang, Juanzi Li (2016). *Text-Enhanced Representation Learning for Knowledge Graph*. **IJCAI-16**  July 9 -- 16, 2016 New York, USA.
