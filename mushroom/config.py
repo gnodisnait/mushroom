@@ -4,7 +4,7 @@ import decimal
 ################################
 #### put your own data path ####
 ################################
-dataPath = "/Users/tdong/data/mushroom"
+dataPath = "/home/kdml21/dongt/data/mushroom"
 
 ########################################################################
 ### name the directory for putting results of triple classification  ###
