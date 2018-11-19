@@ -52,21 +52,21 @@ mushroomStrucFiles = {"Freebase13": os.path.join(dataPath, "Freebase13/mushroom_
                       }
 
 mushroomTrainFiles = {
-    "Freebase13": os.path.join(dataPath, "Freebase13/train_decoded_mushroom.txt.clean"),
-    "Wordnet11": os.path.join(dataPath, "Wordnet11/train_decoded_mushroom.txt.clean"),
-    "Wordnet18": os.path.join(dataPath, "Wordnet18/train_decoded_mushroom.txt.clean")
+    "Freebase13": os.path.join(dataPath, "Freebase13/train_decoded_mushroom.txt"),
+    "Wordnet11": os.path.join(dataPath, "Wordnet11/train_decoded_mushroom.txt"),
+    "Wordnet18": os.path.join(dataPath, "Wordnet18/train_decoded_mushroom.txt")
 }
 
 mushroomValidFiles = {
-    "Freebase13": os.path.join(dataPath, "Freebase13/valid_decoded_mushroom.txt.clean"),
-    "Wordnet11": os.path.join(dataPath, "Wordnet11/valid_decoded_mushroom.txt.clean"),
-    "Wordnet18": os.path.join(dataPath, "Wordnet18/valid_decoded_mushroom.txt.clean")
+    "Freebase13": os.path.join(dataPath, "Freebase13/valid_decoded_mushroom.txt"),
+    "Wordnet11": os.path.join(dataPath, "Wordnet11/valid_decoded_mushroom.txt"),
+    "Wordnet18": os.path.join(dataPath, "Wordnet18/valid_decoded_mushroom.txt")
 }
 
 mushroomTestFiles = {
-    "Freebase13": os.path.join(dataPath, "Freebase13/test_decoded_mushroom.txt.clean"),
-    "Wordnet11": os.path.join(dataPath, "Wordnet11/test_decoded_mushroom.txt.clean"),
-    "Wordnet18": os.path.join(dataPath, "Wordnet18/test_decoded_mushroom.txt.clean")
+    "Freebase13": os.path.join(dataPath, "Freebase13/test_decoded_mushroom.txt"),
+    "Wordnet11": os.path.join(dataPath, "Wordnet11/test_decoded_mushroom.txt"),
+    "Wordnet18": os.path.join(dataPath, "Wordnet18/test_decoded_mushroom.txt")
 }
 
 mushroomLogPaths = {
