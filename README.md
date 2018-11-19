@@ -1,13 +1,21 @@
 # Triple Classification Using Regions and Fine-Grained Entity Typing
 
-## Install on MacOS system
-
+## Installation
+* on MacOS system
 ```
 $ git clone https://github.com/gnodisnait/mushroom.git
 $ cd mushroom
 $ virtualenv venv
 $ source venv/bin/activate
-(venv) $ pip install -r requirements.txt
+(venv) $ pip install -r requirements_mac.txt
+```
+* on Ubuntu system
+```
+$ git clone https://github.com/gnodisnait/mushroom.git
+$ cd mushroom
+$ virtualenv venv
+$ source venv/bin/activate
+(venv) $ pip install -r requirements_ubuntu.txt
 ```
 
 ## Download datasets
