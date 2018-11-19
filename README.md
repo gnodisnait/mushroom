@@ -26,6 +26,9 @@ download datasets
 (venv) $ python mushroom.py --func download
 ```
 
+* If successful, three sub-directories with datasets at `dataPath` directory will be created: `Freebase13`, `Wordnet11`, and `Wordnet18`
+
+
 ## Triple classification
 
 ```
