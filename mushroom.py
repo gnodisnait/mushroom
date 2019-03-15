@@ -12,6 +12,7 @@ from mushroom.config import ballMarginLst, dataPath, resultDir, KGS, e2vFlags
 from mushroom.config import defaultStemLst, defaultEnhanceStem, defaultEnlargeMR, defaultL0
 from mushroom.config import defaultR0, defaultAddDim, defaultEnrichLevel, defaultMaxTrueTails, defaultMPInterSec
 from mushroom.config import defaultStemRel, defaultSubspaceDim, defaultWidthOfPLC
+from mushroom.util import download_nball_files
 
 """
 # usage 0: download datasets
@@ -156,6 +157,8 @@ def main():
                 elif args.e2v == "all":
                     e2vFiles = [tekeh2vecFiles[aKG], tekee2vecFiles[aKG], transe2vecFiles[aKG]]
                 process_one_kg(oneKg=aKG, entityEmbeddings=e2vFiles)
+    elif args.func == 'download':
+        download_nball_files(dataPath)
 
 
 if __name__ == "__main__":

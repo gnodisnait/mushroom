@@ -5,7 +5,7 @@
 ```
 $ git clone https://github.com/gnodisnait/mushroom.git
 $ cd mushroom
-$ virtualenv venv
+$ virtualenv -p python3 venv
 $ source venv/bin/activate
 (venv) $ pip install -r requirements_mac.txt
 ```
@@ -13,7 +13,7 @@ $ source venv/bin/activate
 ```
 $ git clone https://github.com/gnodisnait/mushroom.git
 $ cd mushroom
-$ virtualenv venv
+$ virtualenv -p python3 venv
 $ source venv/bin/activate
 (venv) $ pip install -r requirements_ubuntu.txt
 ```

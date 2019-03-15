@@ -16,7 +16,7 @@ KGS = ["Freebase13", "Wordnet11", "Wordnet18", "all"]
 e2vFlags = ['TransE', 'TE', 'TH', 'all']
 NBallLinks = {
     "Freebase13": "https://ndownloader.figshare.com/files/13548377",
-    "Wordnet11": "https://ndownloader.figshare.com/files/13548311",
+    "Wordnet11": "https://ndownloader.figshare.com/files/13596746",
     "Wordnet18": "https://ndownloader.figshare.com/files/13548311"
 }
 
